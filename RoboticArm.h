@@ -14,7 +14,7 @@ class RoboticArm{
 		void grab();
 		void release();
 		void move(double a, double b, double c);
-}
+};
 
 		
 

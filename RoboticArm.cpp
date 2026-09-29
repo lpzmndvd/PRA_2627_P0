@@ -28,9 +28,9 @@ void RoboticArm::move(double a, double b, double c){
 
 //Aquí se podría hacer una gestión de errores para que reaccione ante la orden de agarrar si ya lo tienes
 
-void RoboticArms::grab(){
+void RoboticArm::grab(){
 	atlas = true;
 }
-RoboticArm::release(){
+void RoboticArm::release(){
 	atlas = false;
 }
