@@ -20,6 +20,12 @@ bool RoboticArm::getAtlas(){
 	return atlas;
 }
 
+void RoboticArm::move(double a, double b, double c){
+	x+=a;
+	y+=b;
+	z+=c;
+}
+
 //Aquí se podría hacer una gestión de errores para que reaccione ante la orden de agarrar si ya lo tienes
 
 void RoboticArms::grab(){
